@@ -22,6 +22,47 @@ export const authProvider: AuthProvider = {
       return Promise.resolve();
     }
   },
+  register: async ({ email, password }) => {
+    const { user, error } = await supabaseClient.auth.signUp({
+      email,
+      password,
+    });
+
+    if (error) {
+      return Promise.reject(error);
+    }
+
+    if (user) {
+      return Promise.resolve();
+    }
+  },
+  forgotPassword: async ({ email }) => {
+    const { data, error } = await supabaseClient.auth.api.resetPasswordForEmail(
+      email,
+      {
+        redirectTo: `${window.location.origin}/update-password`,
+      }
+    );
+
+    if (error) {
+      return Promise.reject(error);
+    }
+
+    if (data) {
+      return Promise.resolve();
+    }
+  },
+  updatePassword: async ({ password }) => {
+    const { data, error } = await supabaseClient.auth.update({ password });
+
+    if (error) {
+      return Promise.reject(error);
+    }
+
+    if (data) {
+      return Promise.resolve("/");
+    }
+  },
   logout: async () => {
     nookies.destroy(null, "token");
     const { error } = await supabaseClient.auth.signOut();
