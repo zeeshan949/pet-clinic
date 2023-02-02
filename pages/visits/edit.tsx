@@ -76,3 +76,6 @@ export const VisitEdit: React.FC<IResourceComponentsProps> = () => {
         </Edit>
     );
 };
+
+
+export default VisitEdit;

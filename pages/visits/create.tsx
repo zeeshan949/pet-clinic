@@ -62,3 +62,6 @@ export const VisitCreate: React.FC<IResourceComponentsProps> = () => {
         </Create>
     );
 };
+
+
+export default VisitCreate;

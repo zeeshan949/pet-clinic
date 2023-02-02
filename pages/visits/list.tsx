@@ -77,3 +77,5 @@ export const VisitList: React.FC<IResourceComponentsProps> = () => {
         </List>
     );
 };
+
+export default VisitList;

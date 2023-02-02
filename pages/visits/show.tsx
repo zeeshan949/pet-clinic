@@ -38,3 +38,6 @@ export const VisitShow: React.FC<IResourceComponentsProps> = () => {
         </Show>
     );
 };
+
+
+export default VisitShow;
