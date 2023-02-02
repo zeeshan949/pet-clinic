@@ -67,3 +67,6 @@ export const OwnerCreate: React.FC<IResourceComponentsProps> = () => {
         </Create>
     );
 };
+
+
+export default OwnerCreate;

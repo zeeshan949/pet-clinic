@@ -36,3 +36,6 @@ export const TypeEdit: React.FC<IResourceComponentsProps> = () => {
         </Edit>
     );
 };
+
+
+export default TypeEdit;

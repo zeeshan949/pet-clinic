@@ -25,3 +25,6 @@ export const SpecialtyShow: React.FC<IResourceComponentsProps> = () => {
         </Show>
     );
 };
+
+
+export default SpecialtyShow;

@@ -41,15 +41,15 @@ import { PetShow } from "./pets/show";
 import { PetList } from "./pets/list";
 import { PetEdit } from "./pets/edit";
 import { PetCreate } from "./pets/create";
-import { VisitList } from "./visits/list";
-import { VisitCreate } from "./visits/create";
-import { VisitShow } from "./visits/show";
-import { VisitEdit } from "./visits/edit";
 import { TypeList } from "./types/list";
 import { TypeShow } from "./types/show";
 import { TypeCreate } from "./types/create";
 import { TypeEdit } from "./types/edit";
 import { DashboardPage } from "./dashboard";
+import VisitList from "./visits/list";
+import VisitShow from "./visits/show";
+import VisitCreate from "./visits/create";
+import VisitEdit from "./visits/edit";
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (

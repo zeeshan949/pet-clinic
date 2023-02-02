@@ -48,3 +48,5 @@ export const VetList: React.FC<IResourceComponentsProps> = () => {
         </List>
     );
 };
+
+export default VetList;

@@ -7,6 +7,7 @@ import {
     TagField,
     TextField,
 } from "@pankod/refine-antd";
+import exp from "constants";
 
 const { Title } = Typography;
 
@@ -33,3 +34,6 @@ export const OwnerShow: React.FC<IResourceComponentsProps> = () => {
         </Show>
     );
 };
+
+
+export default OwnerShow;

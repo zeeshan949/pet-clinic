@@ -48,3 +48,6 @@ export const PetShow: React.FC<IResourceComponentsProps> = () => {
         </Show>
     );
 };
+
+
+export default PetShow;

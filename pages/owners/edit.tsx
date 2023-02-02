@@ -80,3 +80,6 @@ export const OwnerEdit: React.FC<IResourceComponentsProps> = () => {
         </Edit>
     );
 };
+
+
+export default OwnerEdit;

@@ -36,3 +36,6 @@ export const SpecialtyEdit: React.FC<IResourceComponentsProps> = () => {
         </Edit>
     );
 };
+
+
+export default SpecialtyEdit;

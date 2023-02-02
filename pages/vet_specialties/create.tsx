@@ -51,3 +51,6 @@ export const VetSpecialtyCreate: React.FC<IResourceComponentsProps> = () => {
         </Create>
     );
 };
+
+
+export default VetSpecialtyCreate;

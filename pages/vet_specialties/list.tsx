@@ -90,3 +90,5 @@ export const VetSpecialtyList: React.FC<IResourceComponentsProps> = () => {
         </List>
     );
 };
+
+export default VetSpecialtyList;

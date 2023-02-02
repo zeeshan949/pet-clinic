@@ -24,4 +24,6 @@ export const TypeCreate: React.FC<IResourceComponentsProps> = () => {
     );
 };
 
+export default TypeCreate;
+
 

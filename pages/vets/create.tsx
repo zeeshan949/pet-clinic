@@ -34,3 +34,6 @@ export const VetCreate: React.FC<IResourceComponentsProps> = () => {
         </Create>
     );
 };
+
+
+export default VetCreate;

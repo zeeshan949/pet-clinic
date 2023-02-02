@@ -25,3 +25,5 @@ export const TypeShow: React.FC<IResourceComponentsProps> = () => {
         </Show>
     );
 };
+
+export default TypeShow;

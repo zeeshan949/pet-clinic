@@ -96,3 +96,5 @@ export const PetList: React.FC<IResourceComponentsProps> = () => {
         </List>
     );
 };
+
+export default PetList;

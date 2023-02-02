@@ -47,3 +47,6 @@ export const SpecialtyList: React.FC<IResourceComponentsProps> = () => {
         </List>
     );
 };
+
+
+export default SpecialtyList;

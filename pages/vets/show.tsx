@@ -27,3 +27,6 @@ export const VetShow: React.FC<IResourceComponentsProps> = () => {
         </Show>
     );
 };
+
+
+export default VetShow;

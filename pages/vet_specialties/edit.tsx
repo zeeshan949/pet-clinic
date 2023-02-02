@@ -66,3 +66,6 @@ export const VetSpecialtyEdit: React.FC<IResourceComponentsProps> = () => {
         </Edit>
     );
 };
+
+
+export default VetSpecialtyEdit;

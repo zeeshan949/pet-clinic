@@ -78,3 +78,6 @@ export const PetCreate: React.FC<IResourceComponentsProps> = () => {
         </Create>
     );
 };
+
+
+export default PetCreate;

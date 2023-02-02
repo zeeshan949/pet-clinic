@@ -47,3 +47,6 @@ export const TypeList: React.FC<IResourceComponentsProps> = () => {
         </List>
     );
 };
+
+
+export default TypeList;

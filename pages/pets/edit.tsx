@@ -93,3 +93,6 @@ export const PetEdit: React.FC<IResourceComponentsProps> = () => {
         </Edit>
     );
 };
+
+
+export default PetEdit;

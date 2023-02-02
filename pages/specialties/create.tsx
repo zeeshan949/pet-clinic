@@ -23,3 +23,5 @@ export const SpecialtyCreate: React.FC<IResourceComponentsProps> = () => {
         </Create>
     );
 };
+
+export default SpecialtyCreate;

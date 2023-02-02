@@ -47,3 +47,6 @@ export const VetEdit: React.FC<IResourceComponentsProps> = () => {
         </Edit>
     );
 };
+
+
+export default VetEdit;

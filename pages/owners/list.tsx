@@ -51,3 +51,6 @@ export const OwnerList: React.FC<IResourceComponentsProps> = () => {
         </List>
     );
 };
+
+
+export default OwnerList;

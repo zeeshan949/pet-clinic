@@ -1,6 +1,7 @@
 import React from "react";
 import { IResourceComponentsProps, useShow, useOne } from "@pankod/refine-core";
 import { Show, Typography, NumberField } from "@pankod/refine-antd";
+import exp from "constants";
 
 const { Title } = Typography;
 
@@ -41,3 +42,6 @@ export const VetSpecialtyShow: React.FC<IResourceComponentsProps> = () => {
         </Show>
     );
 };
+
+
+export default VetSpecialtyShow;
