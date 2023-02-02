@@ -21,35 +21,14 @@ import {
   Layout,
   OffLayoutArea,
 } from "@components/layout";
-import { OwnerList } from "./owners/list";
-import { OwnerShow } from "./owners/show";
-import { OwnerCreate } from "./owners/create";
-import { OwnerEdit } from "./owners/edit";
-import { VetList } from "./vets/list";
-import { VetShow } from "./vets/show";
-import { VetCreate } from "./vets/create";
-import { VetEdit } from "./vets/edit";
-import { SpecialtyList } from "./specialties/list";
-import { SpecialtyShow } from "./specialties/show";
-import { SpecialtyCreate } from "./specialties/create";
-import { SpecialtyEdit } from "./specialties/edit";
-import { VetSpecialtyList } from "./vet_specialties/list";
-import { VetSpecialtyCreate } from "./vet_specialties/create";
-import { VetSpecialtyEdit } from "./vet_specialties/edit";
-import { VetSpecialtyShow } from "./vet_specialties/show";
-import { PetShow } from "./pets/show";
-import { PetList } from "./pets/list";
-import { PetEdit } from "./pets/edit";
-import { PetCreate } from "./pets/create";
-import { VisitList } from "./visits/list";
-import { VisitCreate } from "./visits/create";
-import { VisitShow } from "./visits/show";
-import { VisitEdit } from "./visits/edit";
-import { TypeList } from "./types/list";
-import { TypeShow } from "./types/show";
-import { TypeCreate } from "./types/create";
-import { TypeEdit } from "./types/edit";
+import { OwnerList, OwnerCreate, OwnerEdit, OwnerShow } from "./owners";
 import { DashboardPage } from "./dashboard";
+import { TypeCreate, TypeEdit, TypeList, TypeShow } from "./types";
+import { SpecialtyCreate, SpecialtyEdit, SpecialtyList, SpecialtyShow } from "./specialties";
+import { VetCreate, VetEdit, VetList, VetShow } from "./vets";
+import { VetSpecialtyCreate, VetSpecialtyEdit, VetSpecialtyList, VetSpecialtyShow } from "./vet_specialties";
+import { PetCreate, PetEdit, PetList, PetShow } from "./pets";
+import { VisitCreate, VisitEdit, VisitList, VisitShow } from "./visits";
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
